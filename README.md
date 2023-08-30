@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+This is Finance Tracker Social Media App made by Zuha Rana.
