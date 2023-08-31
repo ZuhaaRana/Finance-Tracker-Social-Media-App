@@ -145,6 +145,8 @@ GEM
       i18n (>= 0.6.4, <= 2)
     msgpack (1.7.2)
     multipart-post (2.3.0)
+    net-http (0.3.2)
+      uri
     net-imap (0.3.7)
       date
       net-protocol
@@ -245,6 +247,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.11)
       thread_safe (~> 0.1)
+    uri (0.10.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.2.0)
@@ -280,6 +283,9 @@ DEPENDENCIES
   iex-ruby-client
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
+  net-http
+  net-imap
+  net-smtp
   pg
   puma (~> 4.1)
   rails (~> 6.0.1)
@@ -290,6 +296,7 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
+  uri (= 0.10.0)
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)

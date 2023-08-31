@@ -22,6 +22,11 @@ gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
 
 gem 'iex-ruby-client'
+
+gem "net-http"
+gem "net-smtp"
+gem "net-imap"
+gem "uri", "0.10.0"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
