@@ -27,6 +27,8 @@ gem "net-http"
 gem "net-smtp"
 gem "net-imap"
 gem "uri", "0.10.0"
+
+gem "font-awesome-rails"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
