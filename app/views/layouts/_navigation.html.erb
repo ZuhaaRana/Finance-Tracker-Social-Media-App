@@ -1,4 +1,6 @@
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
     <div class = "container">
       <%= link_to 'Finance Tracker', root_path, class: 'navbar-brand'%>
         <% if current_user %>
@@ -29,6 +31,10 @@
               </li>
             </ul>
             <ul class = 'navbar-nav ml-auto'>
+              <li class = 'nav-item user-name'>
+                <i class="fa fa-user-circle-o" style="font-size:24px"></i>
+                <%= current_user.full_name %>
+              </li>
               <li class = 'nav-item'>
                   <%= link_to "Log Out", destroy_user_session_path,
                   class: "btn btn-xs btn-danger logout-button", method: :delete%>
