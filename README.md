@@ -7,4 +7,6 @@ This is Finance Tracker Social Media App made by Zuha Rana
 
 <img width="1166" alt="3" src="https://github.com/ZuhaaRana/Finance-Tracker-Social-Media-App/assets/118755129/ec72e3ce-9992-48c0-b1c4-4d24ee854128">
 
+<img width="1184" alt="5" src="https://github.com/ZuhaaRana/Finance-Tracker-Social-Media-App/assets/118755129/4108f08d-3f3a-439b-8967-a9d5efae1246">
+
 <img width="1177" alt="4" src="https://github.com/ZuhaaRana/Finance-Tracker-Social-Media-App/assets/118755129/eb2b71b9-2ae5-4f09-a351-010706bf42ca">
