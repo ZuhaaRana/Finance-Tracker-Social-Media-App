@@ -17,8 +17,7 @@
               <td><%= stock.last_price %></td>
               <td><% if current_user.can_track_stock?(stock.ticker)%>
                       <%= link_to 'Add to Portfolio', user_stocks_path(user: current_user, ticker: stock.ticker),
-                                         class: "btn btn-xs btn-success", method: :post %> 
-                  <% elsif current_user.id != @user.id %>
+                                         class: "btn btn-sm btn-success", method: :post %>
                     <span class = "badge badge-secondary">
                         You are already tracking 
                         <% if !current_user.under_stock_limit? %>
